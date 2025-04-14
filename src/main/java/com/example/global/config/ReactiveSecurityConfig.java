@@ -34,6 +34,8 @@ public class ReactiveSecurityConfig {
                         .pathMatchers(
                                 "/login",
                                 "/",
+                                "/api/health",
+                                "/health",
                                 "/api/users/join",
                                 "/swagger-ui/**",
                                 "/swagger-ui.html",
